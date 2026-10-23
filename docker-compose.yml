@@ -1,0 +1,21 @@
+# Casa Nova — TheVault (Compose Manager). Dados persistem em /mnt/user/appdata/casa-nova.
+services:
+  casa-nova:
+    image: ghcr.io/saladfruiter-labsgo/casa-nova:${CASA_NOVA_TAG:?defina CASA_NOVA_TAG no .env}
+    container_name: casa-nova
+    restart: unless-stopped
+    stop_grace_period: 30s
+    ports:
+      - "${CASA_NOVA_BIND:?defina CASA_NOVA_BIND (IP da LAN/Tailscale)}:${CASA_NOVA_PORT:-3010}:3010"
+    volumes:
+      - /mnt/user/appdata/casa-nova/data:/app/data
+      - /mnt/user/appdata/casa-nova/backups:/app/backups
+    env_file:
+      - .env
+    environment:
+      - PORT=3010
+      - DATA_DIR=/app/data
+      - BACKUP_DIR=/app/backups
+    labels:
+      net.unraid.docker.webui: "http://[IP]:[PORT:3010]/"
+      net.unraid.docker.icon: "https://raw.githubusercontent.com/saladfruiter-labsGo/casa-nova/main/public/icon.svg"

@@ -1,0 +1,122 @@
+[
+ {
+  "productId": "87303",
+  "productName": "Tampa Microondas Natural - Ou",
+  "brand": "Ou",
+  "link": "https://site.fastshop.com.br/tampa-microondas-natural---ou-87303/p",
+  "items": [
+   {
+    "itemId": "91487",
+    "name": "Tampa Microondas Natural - Ou",
+    "ean": "2556",
+    "images": [
+     {
+      "imageId": "1635326",
+      "imageLabel": null,
+      "imageTag": "<img src=\"~/arquivos/ids/1635326-#width#-#height#/17334170196051.jpg?v=638729804136570000\" width=\"#width#\" height=\"#height#\" alt=\"17334170196051\" id=\"\" />",
+      "imageUrl": "https://fastshopbr.vteximg.com.br/arquivos/ids/1635326/17334170196051.jpg?v=638729804136570000",
+      "imageText": "17334170196051",
+      "imageLastModified": "2025-01-20T14:33:33.6570000Z"
+     }
+    ],
+    "sellers": [
+     {
+      "sellerId": "CNL137",
+      "sellerName": "Coqueluche Casa",
+      "sellerDefault": true,
+      "commertialOffer": {
+       "Price": 59.88,
+       "ListPrice": 59.88,
+       "AvailableQuantity": 10,
+       "Installments": [
+        {
+         "Value": 59.88,
+         "InterestRate": 0.0,
+         "TotalValuePlusInterestRate": 59.88,
+         "NumberOfInstallments": 1,
+         "PaymentSystemName": "American Express",
+         "PaymentSystemGroupName": "creditCardPaymentGroup",
+         "Name": "American Express à vista"
+        },
+        {
+         "Value": 59.88,
+         "InterestRate": 0.0,
+         "TotalValuePlusInterestRate": 59.88,
+         "NumberOfInstallments": 1,
+         "PaymentSystemName": "Visa",
+         "PaymentSystemGroupName": "creditCardPaymentGroup",
+         "Name": "Visa à vista"
+        },
+        {
+         "Value": 59.88,
+         "InterestRate": 0.0,
+         "TotalValuePlusInterestRate": 59.88,
+         "NumberOfInstallments": 1,
+         "PaymentSystemName": "Diners",
+         "PaymentSystemGroupName": "creditCardPaymentGroup",
+         "Name": "Diners à vista"
+        },
+        {
+         "Value": 59.88,
+         "InterestRate": 0.0,
+         "TotalValuePlusInterestRate": 59.88,
+         "NumberOfInstallments": 1,
+         "PaymentSystemName": "Mastercard",
+         "PaymentSystemGroupName": "creditCardPaymentGroup",
+         "Name": "Mastercard à vista"
+        },
+        {
+         "Value": 59.88,
+         "InterestRate": 0.0,
+         "TotalValuePlusInterestRate": 59.88,
+         "NumberOfInstallments": 1,
+         "PaymentSystemName": "Hipercard",
+         "PaymentSystemGroupName": "creditCardPaymentGroup",
+         "Name": "Hipercard à vista"
+        },
+        {
+         "Value": 59.88,
+         "InterestRate": 0.0,
+         "TotalValuePlusInterestRate": 59.88,
+         "NumberOfInstallments": 1,
+         "PaymentSystemName": "Elo",
+         "PaymentSystemGroupName": "creditCardPaymentGroup",
+         "Name": "Elo à vista"
+        },
+        {
+         "Value": 50.9,
+         "InterestRate": 0.0,
+         "TotalValuePlusInterestRate": 50.9,
+         "NumberOfInstallments": 1,
+         "PaymentSystemName": "Pix",
+         "PaymentSystemGroupName": "instantPaymentPaymentGroup",
+         "Name": "Pix à vista"
+        },
+        {
+         "Value": 59.88,
+         "InterestRate": 0.0,
+         "TotalValuePlusInterestRate": 59.88,
+         "NumberOfInstallments": 1,
+         "PaymentSystemName": "Outros Pagamentos APP Vendedor (12x - s/ juros)",
+         "PaymentSystemGroupName": "custom210PaymentGroupPaymentGroup",
+         "Name": "Outros Pagamentos APP Vendedor (12x - s/ juros) à vista"
+        }
+       ]
+      }
+     },
+     {
+      "sellerId": "1",
+      "sellerName": "Fast Shop",
+      "sellerDefault": false,
+      "commertialOffer": {
+       "Price": 0.0,
+       "ListPrice": 0.0,
+       "AvailableQuantity": 0,
+       "Installments": []
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

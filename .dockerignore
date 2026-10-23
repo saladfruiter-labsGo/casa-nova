@@ -1,0 +1,11 @@
+node_modules
+dist
+data
+backups
+demo-data
+.env
+.env.*
+!.env.example
+.git
+.hermes
+*.log
