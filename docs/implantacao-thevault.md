@@ -9,7 +9,7 @@
 - Padrão existente: Compose Manager, dados em `/mnt/user/appdata/<app>`, imagens no GHCR.
 - O TheVault também recebe 403 de Casas Bahia, Pontofrio e Magalu (mesmo resultado do host do Hermes).
 
-## Passos (cada um precisa da sua aprovação)
+## Passos executados (31/10/2026)
 
 1. **Criar diretórios** (não disruptivo):
    ```bash
